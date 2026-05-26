@@ -1,0 +1,23 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "test-email": "node test-email.js",
+    "test-contact": "node test-contact.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "nodemailer": "^7.0.5",
+    "serialport": "^13.0.0",
+    "socket.io": "^4.8.1"
+  }
+}
